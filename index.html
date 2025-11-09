@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chat App – Login</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="main-container">
+
+    <!-- Left image panel -->
+    <div class="image-panel">
+      <img src="./images/pexels-padrinan-1111370.jpg" alt="Chat illustration">
+      <div class="overlay">
+        <h1>Stay Connected 🤍</h1>
+        <p>Share your thoughts, express freely, and make real connections.</p>
+      </div>
+    </div>
+
+    <!-- Right form panel -->
+    <div class="form-panel">
+      <h2>Welcome to Chat App</h2>
+      <p class="subtext">Sign up or log in to start chatting!</p>
+      
+      <input type="email" id="email" placeholder="Enter your email">
+      <input type="password" id="password" placeholder="Enter your password">
+
+      <button id="signup" class="btn">Sign Up</button>
+      <button id="login" class="btn outline">Log In</button>
+
+      <button id="google-btn" class="google-btn">
+        Continue with Google
+      </button>
+
+      <p class="note">
+        Use any email (password ≥ 6 characters). After signup/login you'll choose a username.
+      </p>
+    </div>
+
+  </div>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  <script type="module" src="app.js"></script>
+</body>
+</html>
